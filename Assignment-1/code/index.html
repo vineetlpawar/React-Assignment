@@ -14,7 +14,31 @@
     <div id="root"></div>
     <script type="text/babel">
 //React Code here
- ReactDOM.render(<div></div>,document.getElementById('root'));
+      const WebApp=({props})=> {
+        return (
+          <div className="container">
+            <div className="row first">
+              <div className="content">
+                </div>
+              <div className="content"></div>
+              </div>
+            <div className="row second">
+              <div className="content"></div>
+              </div>
+            <div className="row third">
+              <div className="content"></div>
+              <div className="content"></div>
+              <div className="content"></div>
+              </div>
+
+              
+          </div>
+        )
+      }
+        
+        
+      
+ ReactDOM.render(<WebApp></WebApp>,document.getElementById('root'));
 
 </script>
 <!--
